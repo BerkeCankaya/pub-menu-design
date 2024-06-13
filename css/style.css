@@ -1,0 +1,845 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans" , sans-serif;
+}
+header{
+    background-image: url("../img/publocale.png");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+    background-color: #0c2136;
+}
+.under-header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: #0c2136;
+}
+.under-header h1{
+    font-size: 25px;
+    margin-left: 10px;
+    color: white;
+}
+.under-header .fa{
+    font-size: 30px;
+    color: white;
+}
+.under-header-menu{
+    width: 100%;
+    height: 300px;
+    display: flex; 
+    justify-content: space-around;
+    background-color: #0c2136;
+}
+.under-header-menu-yiyecek{
+    width: 30%;
+    height: 300px;
+}
+.under-header-menu .yiyecek-img{
+    width: 100%;
+    height: 150px;
+    background-image: url("../img/yiyecekler.webp");
+    background-size: cover;
+    border-radius: 50%;
+}
+.under-header-menu-içecek{
+    width: 30%;
+    height: 300px;
+}
+.under-header-menu .içecek-img{
+    width: 100%;
+    height: 150px;
+    background-image: url("../img/içecekler.jpg");
+    background-size: cover;
+    border-radius: 50%;
+}
+.under-header-menu-alkol{
+    width: 30%;
+    height: 400px;
+}
+.under-header-menu .alkol-img{
+    width: 100%;
+    height: 150px;
+    background-image: url("../img/alkoller.jfif");
+    background-size: cover;
+    border-radius: 50%;
+}
+.under-header-menu h1{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+
+}
+
+/*Foods*/
+
+/*fries*/
+.fries{
+    width: 100%;
+    min-height: 40vh;
+    background-color: #112d4b;
+    padding: 50px;
+}
+.fries h1{
+    font-size: 30px;
+    color: aqua;
+    text-shadow: 0 0 5px white;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    
+}
+.fries h2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    color: white;
+    font-size: 20px;
+}
+/*Külah*/
+.külah{
+    width: 100%;
+    min-height: 50vh;
+    padding: 50px;
+    background-color: #0c2136;
+    color: white;
+}
+.külah h1{
+    font-size: 30px;
+    color: aqua;
+    text-shadow: 0 0 5px white;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    
+}
+.külah h3{
+    font-size: 12px;
+    font-weight: 400;
+}
+.külah h2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    font-size: 20px;
+}
+/*Snacks*/
+.snacks{
+    width: 100%;
+    min-height: 60vh;
+    padding: 50px;
+    background-color: #112d4b;
+    color: white;
+}
+.snacks h1{
+    font-size: 30px;
+    color: aqua;
+    text-shadow: 0 0 5px white;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    
+}
+.snacks h3{
+    font-size: 12px;
+    font-weight: 400;
+}
+.snacks h2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+/*wings*/
+.wings{
+    width: 100%;
+    min-height: 35vh;
+    padding: 50px;
+    background-color: #0c2136;
+    color: white;
+}
+
+.wings h1{
+    font-size: 30px;
+    color: aqua;
+    text-shadow: 0 0 5px white;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    
+}
+.wings h2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    font-size: 20px;
+}
+/*Chicken*/
+.chicken{
+    width: 100%;
+    min-height: 60vh;
+    padding: 50px;
+    background-color: #112d4b;
+    color: white;
+}
+
+.chicken h1{
+    font-size: 30px;
+    color: aqua;
+    text-shadow: 0 0 5px white;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    
+}
+.chicken h3{
+    font-size: 12px;
+    font-weight: 400;
+}
+.chicken h2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    font-size: 20px;
+}
+/*Pizza*/
+.pizza{
+    width: 100%;
+    min-height: 60vh;
+    padding: 50px;
+    background-color: #0c2136;
+    color: white;
+}
+
+.pizza h1{
+    font-size: 30px;
+    color: aqua;
+    text-shadow: 0 0 5px white;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    
+}
+.pizza h3{
+    font-size: 12px;
+    font-weight: 400;
+}
+.pizza h2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    font-size: 20px;
+}
+/*PubLocale*/
+.publocal{
+    width: 100%;
+    min-height: 60vh;
+    padding: 50px;
+    background-color: #112d4b;
+    color: white;
+}
+
+.publocal h1{
+    font-size: 30px;
+    color: aqua;
+    text-shadow: 0 0 5px white;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    
+}
+.publocal h3{
+    font-size: 12px;
+    font-weight: 400;
+}
+.publocal h2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.gangxxl{
+    min-height: 15vh;
+    padding-top: 10px;
+    display: flex;
+    font-size: 12px;
+    font-weight: 400;
+    gap: 50px;
+    padding-left: 10px;
+}
+/*Cheese Steak*/
+.cheese-steak{
+    width: 100%;
+    min-height: 20vh;
+    padding: 50px;
+    background-color: #0c2136;
+    color: white;
+}
+
+.cheese-steak h1{
+    font-size: 30px;
+    color: aqua;
+    text-shadow: 0 0 5px white;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    
+}
+.cheese-steak h3{
+    font-size: 12px;
+    font-weight: 400;
+}
+.cheese-steak h2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+/*Salata*/
+.salata{
+    width: 100%;
+    min-height: 20vh;
+    padding: 50px;
+    background-color: #112d4b;
+    color: white;
+}
+
+.salata h1{
+    font-size: 30px;
+    color: aqua;
+    text-shadow: 0 0 5px white;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    
+}
+.salata h3{
+    font-size: 12px;
+    font-weight: 400;
+}
+.salata h2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+/*Mac & Cheese*/
+.mac-cheese{
+    width: 100%;
+    min-height: 40vh;
+    padding: 50px;
+    background-color: #0c2136;
+    color: white;
+}
+
+.mac-cheese h1{
+    font-size: 30px;
+    color: aqua;
+    text-shadow: 0 0 5px white;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    
+}
+.mac-cheese h3{
+    font-size: 12px;
+    font-weight: 400;
+}
+.mac-cheese h2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+/*HotDog*/
+.hotdog{
+    width: 100%;
+    min-height: 40vh;
+    padding: 50px;
+    background-color: #112d4b;
+    color: white;
+}
+
+.hotdog h1{
+    font-size: 30px;
+    color: aqua;
+    text-shadow: 0 0 5px white;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    
+}
+.hotdog h3{
+    font-size: 12px;
+    font-weight: 400;
+}
+.hotdog h2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    font-size: 20px;
+}
+/*Burger*/
+.burger{
+    width: 100%;
+    min-height: 40vh;
+    padding: 50px;
+    background-color: #0c2136;
+    color: white;
+}
+
+.burger h1{
+    font-size: 30px;
+    color: aqua;
+    text-shadow: 0 0 5px white;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    
+}
+.burger h3{
+    font-size: 12px;
+    font-weight: 400;
+}
+.burger h2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    font-size: 20px;
+}
+/*Nachos*/
+.nachos{
+    width: 100%;
+    min-height: 40vh;
+    padding: 50px;
+    background-color: #112d4b;
+    color: white;
+}
+
+.nachos h1{
+    font-size: 30px;
+    color: aqua;
+    text-shadow: 0 0 5px white;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    
+}
+.nachos h3{
+    font-size: 12px;
+    font-weight: 400;
+}
+.nachos h2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    font-size: 20px;
+}
+/*TACO*/
+.taco{
+    width: 100%;
+    min-height: 40vh;
+    padding: 50px;
+    background-color: #0c2136;
+    color: white;
+}
+
+.taco h1{
+    font-size: 30px;
+    color: aqua;
+    text-shadow: 0 0 5px white;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    
+}
+.taco h3{
+    font-size: 12px;
+    font-weight: 400;
+}
+.taco h2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    font-size: 20px;
+}
+/*Locale Sandwich*/
+.sandwich{
+    width: 100%;
+    min-height: 30vh;
+    padding: 50px;
+    background-color: #112d4b;
+    color: white;
+}
+
+.sandwich h1{
+    font-size: 30px;
+    color: aqua;
+    text-shadow: 0 0 5px white;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    
+}
+.sandwich h3{
+    font-size: 12px;
+    font-weight: 400;
+}
+.sandwich h2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    font-size: 20px;
+}
+/*Taco Cornet*/
+.taco-cornet{
+    width: 100%;
+    min-height: 20vh;
+    padding: 50px;
+    background-color: #0c2136;
+    color: white;
+}
+
+.taco-cornet h1{
+    font-size: 30px;
+    color: aqua;
+    text-shadow: 0 0 5px white;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    
+}
+.taco-cornet h3{
+    font-size: 12px;
+    font-weight: 400;
+}
+.taco-cornet h2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+/*Drinks*/
+#drinks{
+    width: 100%;
+    min-height: 100vh;
+    padding: 30px;
+    background-color: #112d4b;
+    color: white;
+}
+#drinks h1{
+    font-size: 30px;
+    color: aqua;
+    text-shadow: 0 0 5px white;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    padding-top: 100px;
+    
+}
+#drinks h2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+/*Alcohols*/
+#alcohols{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #112d4b;
+    color: white;
+}
+#alcohols .fıçı{
+    width: 100%;
+    min-height: 20vh;
+    padding: 50px;
+    background-color: #112d4b;
+    color: white;
+}
+#alcohols .şişe{
+    width: 100%;
+    min-height: 20vh;
+    padding: 50px;
+    background-color: #0c2136;
+    color: white;
+}
+#alcohols .kokteyl{
+    width: 100%;
+    min-height: 20vh;
+    padding: 50px;
+    background-color: #112d4b;
+    color: white;
+}
+#alcohols h1{
+    font-size: 30px;
+    color: aqua;
+    text-shadow: 0 0 5px white;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    padding-top: 50px;
+    
+}
+#alcohols h2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+/*Footer*/
+.footer{
+    width: 100%;
+    min-height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: #124072;
+    color: white;
+    padding: 25px;
+}
+.left-footer{
+    display: flex;
+}
+.footer h1{
+    font-size: 15px;
+}
+.footer a{
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.footer .fa{
+    font-size: 20px;
+}
+/*Under-Footer*/
+.under-footer{
+    width: 100%;
+    min-height: 5vh;
+    background-color: #124072;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.under-footer h1{
+    font-size: 12px;
+    font-weight: 400;
+}
+/*responsive*/
+@media screen and (max-width: 400px) {
+    .under-header h1{
+        font-size: 20px;
+    }
+    .under-header .fa{
+        font-size: 25px;
+        margin-top:3px;
+    }
+    .under-header-menu h1{
+        font-size: 15px;
+    }
+    .under-header-menu .yiyecek-img{
+        width: 90%;
+        height: 120px;
+    }
+    .under-header-menu .içecek-img{
+        width: 90%;
+        height: 120px;
+    }
+    .under-header-menu .alkol-img{
+        width: 90%;
+        height: 120px;
+    }
+    .fries h1{
+        font-size: 25px;
+    }
+    .fries h2{
+        font-size: 15px;
+    }
+    .külah h1{
+        font-size: 25px;
+    }
+    .külah h2{
+        font-size: 15px;
+    }
+    .külah{
+        min-height: 45vh;
+    }
+    .külah h3{
+        font-size: 10px;
+    }
+    .snacks{
+        min-height: 45vh;
+    }
+    .snacks h1{
+        font-size: 25px;
+    }
+    .snacks h2{
+        font-size: 15px;
+    }
+    .snacks h3{
+        font-size: 10px;
+    }
+    .wings h1{
+        font-size: 25px;
+    }
+    .wings h2{
+        font-size: 15px;
+    }
+    .chicken h1{
+        font-size: 25px;
+    }
+    .chicken h2{
+        font-size: 15px;
+    }
+    .chicken h3{
+        font-size: 10px;
+    }
+    .pizza{
+        min-height: 50vh;
+    }
+    .pizza h1{
+        font-size: 25px;
+    }
+    .pizza h2{
+        font-size: 15px;
+    }
+    .pizza h3{
+        font-size: 10px;
+    }
+    .publocal h1{
+        font-size: 25px;
+    }
+    .publocal h2{
+        font-size: 15px;
+    }
+    .publocal h3{
+        font-size: 10px;
+    }
+    .publocal ul li{
+        font-size: 10px;
+        padding-top: 10px;
+    }
+    .cheese-steak h1{
+        font-size: 25px;
+    }
+    .cheese-steak h2{
+        font-size: 15px;
+    }
+    .cheese-steak h3{
+        font-size: 10px;
+    }
+    .salata h1{
+        font-size: 25px;
+    }
+    .salata h2{
+        font-size: 15px;
+    }
+    .salata h3{
+        font-size: 10px;
+    }
+    .mac-cheese h1{
+        font-size: 25px;
+    }
+    .mac-cheese h2{
+        font-size: 15px;
+    }
+    .mac-cheese h3{
+        font-size: 10px;
+    }
+    .hotdog h1{
+        font-size: 25px;
+    }
+    .hotdog h2{
+        font-size: 15px;
+    }
+    .hotdog h3{
+        font-size: 10px;
+    }
+    .burger h1{
+        font-size: 25px;
+    }
+    .burger h2{
+        font-size: 15px;
+    }
+    .burger h3{
+        font-size: 10px;
+    }
+    .nachos h1{
+        font-size: 25px;
+    }
+    .nachos h2{
+        font-size: 15px;
+    }
+    .nachos h3{
+        font-size: 10px;
+    }
+    .taco h1{
+        font-size: 25px;
+    }
+    .taco h2{
+        font-size: 15px;
+    }
+    .taco h3{
+        font-size: 10px;
+    }
+    .sandwich h1{
+        font-size: 25px;
+    }
+    .sandwich h2{
+        font-size: 15px;
+    }
+    .sandwich h3{
+        font-size: 10px;
+    }
+    .taco-cornet h1{
+        font-size: 25px;
+    }
+    .taco-cornet h2{
+        font-size: 15px;
+    }
+    .taco-cornet h3{
+        font-size: 10px;
+    }
+    .footer h1{
+        font-size: 10px;
+    }
+    .footer a{
+        font-size: 10px;
+    }
+    .footer .fa{
+        font-size: 15px;
+    }
+    .under-footer h1{
+        font-size: 10px;
+    }
+    #drinks h1{
+       font-size: 20px;
+        
+    }
+    #drinks h2{
+       font-size: 15px;
+    }
+    #alcohols h1{
+       font-size: 20px;
+    }
+    #alcohols h2{
+        font-size: 15px;
+    }
+
+    
+}
+@media screen and (max-width: 300px) {
+    .footer a{
+        margin-left: 0;
+    }
+    .footer{
+        padding-left:10px;
+    }
+    .gangxxl{
+        font-size: 10px;
+        gap: 20px;
+    }
+}
